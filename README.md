@@ -106,7 +106,7 @@ secure-payment-platform/
 │   │   └── ...               // Other route-specific pages
 │   └── types/
 │       └── index.ts          // Shared TypeScript types ([see here](src/types/index.ts))
-└── supabase/
+└── database/
     └── migrations/
         └── 20250408041824_silver_queen.sql  // Database migration for schema setup
 ```
@@ -115,13 +115,16 @@ secure-payment-platform/
 
 - **Local Development:**  
   Run the development server by executing:
+
   ```sh
   npm run dev
   ```
+
   This uses Vite for fast module reloading and build speed.
 
 - **Linting:**  
   Run ESLint to catch issues by:
+
   ```sh
   npm run lint
   ```
@@ -143,10 +146,11 @@ secure-payment-platform/
 
 ## Contributing
 
-Contributions are welcome. To contribute:  
-1. Fork the repository.  
-2. Create a new branch for your feature or fix.  
-3. Write tests and ensure all linting checks pass.  
+Contributions are welcome. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Write tests and ensure all linting checks pass.
 4. Submit a pull request explaining your changes.
 
 Please follow the project's existing coding conventions and document any new features.
@@ -156,4 +160,3 @@ Please follow the project's existing coding conventions and document any new fea
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
